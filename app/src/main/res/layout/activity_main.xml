@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222121"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_display"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:gravity="end|bottom"
+        android:padding="20dp"
+        android:text="0"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn_div"
+        tools:ignore="RtlCompat" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_clear"
+        style="@style/Buttonactionstyle"
+        android:layout_width="210dp"
+        android:layout_height="88dp"
+        android:text="CLEAR"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_display"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_delete"
+        style="ButtonNumber"
+        android:layout_height="88dp"
+        android:text="DELETE"
+        app:layout_constraintStart_toEndOf="@id/btn_clear"
+        app:layout_constraintTop_toBottomOf="@id/tv_display"
+        app:layout_constraintWidth_percent="0.25" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_7"
+        style="@style/ButtonNumber"
+        android:layout_height="88dp"
+        android:text="7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_clear"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_8"
+        style="@style/ButtonNumber"
+        android:layout_height="88dp"
+        android:text="8"
+        app:layout_constraintStart_toEndOf="@id/btn_7"
+        app:layout_constraintTop_toBottomOf="@id/btn_clear"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_9"
+        style="@style/ButtonNumber"
+        android:layout_height="88dp"
+        android:text="9"
+        app:layout_constraintStart_toEndOf="@id/btn_8"
+        app:layout_constraintTop_toBottomOf="@id/btn_delete"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_4"
+        style="@style/ButtonNumber"
+        android:layout_height="88dp"
+        android:text="4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_7"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_5"
+        style="@style/ButtonNumber"
+        android:layout_height="88dp"
+        android:text="5"
+        app:layout_constraintStart_toEndOf="@id/btn_4"
+        app:layout_constraintTop_toBottomOf="@id/btn_9"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_6"
+        style="@style/ButtonNumber"
+        android:layout_height="88dp"
+        android:text="6"
+        app:layout_constraintStart_toEndOf="@id/btn_5"
+        app:layout_constraintTop_toBottomOf="@id/btn_9"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_1"
+        style="@style/ButtonNumber"
+        android:layout_height="88dp"
+        android:text="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn_equal"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_2"
+        style="@style/ButtonNumber"
+        android:layout_height="88dp"
+        android:text="2"
+        app:layout_constraintStart_toEndOf="@id/btn_1"
+        app:layout_constraintBottom_toTopOf="@id/btn_equal"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_3"
+        style="@style/ButtonNumber"
+        android:layout_height="88dp"
+        android:text="3"
+        app:layout_constraintStart_toEndOf="@id/btn_2"
+        app:layout_constraintBottom_toTopOf="@id/btn_equal"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_0"
+        style="@style/ButtonNumber"
+        android:layout_width="210dp"
+        android:layout_height="88dp"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="@id/btn_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_dot"
+        style="@style/ButtonNumber"
+        android:layout_height="88dp"
+        android:text="."
+        app:layout_constraintStart_toEndOf="@id/btn_0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_div"
+        style="@style/ButtonNumber"
+        android:layout_height="88dp"
+        android:text="/"
+        android:textColor="#ea4335"
+        app:layout_constraintStart_toEndOf="@id/btn_9"
+        app:layout_constraintBottom_toTopOf="@id/btn_mul"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_mul"
+        style="@style/ButtonNumber"
+        android:layout_height="88dp"
+        android:text="*"
+        android:textColor="#ea4335"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn_sub"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_sub"
+        style="@style/ButtonNumber"
+        android:layout_height="88dp"
+        android:text="-"
+        android:textColor="#ea4335"
+        app:layout_constraintStart_toEndOf="@id/btn_3"
+        app:layout_constraintBottom_toTopOf="@id/btn_add"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_add"
+        style="@style/ButtonNumber"
+        android:layout_height="88dp"
+        android:text="+"
+        android:textColor="#ea4335"
+        app:layout_constraintStart_toEndOf="@id/btn_3"
+        app:layout_constraintBottom_toTopOf="@id/btn_equal"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_equal"
+        style="@style/ButtonNumber"
+        android:layout_height="88dp"
+        android:text="="
+        android:textColor="#ea4335"
+        app:layout_constraintStart_toEndOf="@id/btn_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.25" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
