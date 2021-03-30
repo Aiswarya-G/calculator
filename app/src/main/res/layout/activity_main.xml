@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
     ​
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_display"
         android:layout_width="0dp"
@@ -18,13 +19,14 @@
         android:padding="20dp"
         android:text="0"
         android:textColor="#ffffff"
-        android:textSize="40dp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@id/btn_div"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="RtlCompat" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_clear"
         style="@style/ButtonNumber"
@@ -35,6 +37,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_display"
         app:layout_constraintWidth_percent="0.50" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_delete"
         style="@style/ButtonNumber"
@@ -46,6 +49,7 @@
         app:layout_constraintWidth_percent="0.25" />
     ​
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_7"
         style="@style/ButtonNumber"
@@ -56,6 +60,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_clear"
         app:layout_constraintWidth_percent="0.25" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_8"
         style="@style/ButtonNumber"
@@ -66,6 +71,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_clear"
         app:layout_constraintWidth_percent="0.25" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_9"
         style="@style/ButtonNumber"
@@ -76,6 +82,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_delete"
         app:layout_constraintWidth_percent="0.25" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_4"
         style="@style/ButtonNumber"
@@ -86,6 +93,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_7"
         app:layout_constraintWidth_percent="0.25" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_5"
         style="@style/ButtonNumber"
@@ -96,6 +104,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_9"
         app:layout_constraintWidth_percent="0.25" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_6"
         style="@style/ButtonNumber"
@@ -106,6 +115,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_9"
         app:layout_constraintWidth_percent="0.25" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_1"
         style="@style/ButtonNumber"
@@ -116,6 +126,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintWidth_percent="0.25" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_2"
         style="@style/ButtonNumber"
@@ -126,6 +137,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_1"
         app:layout_constraintWidth_percent="0.25" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_3"
         style="@style/ButtonNumber"
@@ -136,6 +148,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_2"
         app:layout_constraintWidth_percent="0.25" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_0"
         style="@style/ButtonNumber"
@@ -146,6 +159,7 @@
         app:layout_constraintStart_toStartOf="@id/btn_1"
         app:layout_constraintWidth_percent="0.5" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_dot"
         style="@style/ButtonNumber"
@@ -156,6 +170,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_0"
         app:layout_constraintWidth_percent="0.25" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_div"
         style="@style/ButtonNumber"
@@ -167,6 +182,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_9"
         app:layout_constraintWidth_percent="0.25" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_mul"
         style="@style/ButtonNumber"
@@ -178,6 +194,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.25" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_sub"
         style="@style/ButtonNumber"
@@ -189,6 +206,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_3"
         app:layout_constraintWidth_percent="0.25" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_add"
         style="@style/ButtonNumber"
@@ -200,6 +218,7 @@
         app:layout_constraintStart_toEndOf="@id/btn_3"
         app:layout_constraintWidth_percent="0.25" />
     ​
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/btn_equal"
         style="@style/ButtonNumber"
