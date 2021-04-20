@@ -14,17 +14,7 @@
         <!-- Customize your theme here. -->
     </style>
 <!--ActionButtonStyle for "CLEAR" and "/". -->
-    <style name="Buttonactionstyle">
-        <item name="android:textSize">14sp</item>
-        <item name="android:background">#222121</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#fff</item>
-        <item name="android:layout_width">0dp</item>
-        <item name="android:gravity">center</item>
-        <item name="paddingStart">30dp</item>
-        <item name="android:layout_margin">0.5dp</item>
 
-    </style>
 <!--Numberstyle for "1","2","3",'4","5","6","7","8","9","0".-->
     <style name="ButtonNumber">
         <item name="android:layout_width">0dp</item>
@@ -36,28 +26,9 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_margin">0.5dp</item>
+       <!-- <item name="android:state_pressed">true</item>-->
+
     </style>
-    <!-- EqualButtonStyle for key "=". -->
-    <style name="EqualButtonStyle">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:background">#959494</item>
-        <item name = "android:textSize">22sp</item>
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_margin">0.5dp</item>
-    </style>
-    <!-- NumberActionButton2 for keys "*", "-", "+". -->
-    <style name="NumberActionButton2">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:background">#03423B</item>
-        <item name ="android:textSize">22sp</item>
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_margin">0.5dp</item>
-    </style>
+
 
 </resources>
